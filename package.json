@@ -7,7 +7,7 @@
     "lint": "./node_modules/.bin/eslint .",
     "lint:fix": "./node_modules/.bin/eslint . --fix",
     "start": "node api/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jest"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +26,7 @@
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.2.0"
+    "eslint-plugin-promise": "^5.2.0",
+    "jest": "^27.4.5"
   }
 }
